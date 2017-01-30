@@ -25,11 +25,12 @@ Lightning talks, a social hour with coffee and donuts, and then a more social ho
 **We look forward to seeing you at the event.**
 
 Best,
--Megan Finn, Assistant Professor, University of Washington Seattle
--Jen Jack Gieseking, Assistant Professor, Trinity College
--Mark Graham, Professor, Oxford Internet Institute, University of Oxford
--Mary Gray, Senior Researcher at MSR; Fellow at Harvard University’s Berkman Klein Center for Internet and Society.; Associate Professor of the Media School, with affiliations in American Studies, Anthropology, and Gender Studies at Indiana University.
--Dan Greene, Postdoctoral Researcher, The Social Media Collective, Microsoft Research
--David O’Sullivan, Associate Professor, University of California Berkeley
--Jim Thatcher, Assistant Professor, University of Washington Tacoma
--And the organizing committee of the Digital Geographies Specialty Group
+
+- Megan Finn, Assistant Professor, University of Washington Seattle
+- Jen Jack Gieseking, Assistant Professor, Trinity College
+- Mark Graham, Professor, Oxford Internet Institute, University of Oxford
+- Mary Gray, Senior Researcher at MSR; Fellow at Harvard University’s Berkman Klein Center for Internet and Society.; Associate Professor of the Media School, with affiliations in American Studies, Anthropology, and Gender Studies at Indiana University.
+- Dan Greene, Postdoctoral Researcher, The Social Media Collective, Microsoft Research
+- David O’Sullivan, Associate Professor, University of California Berkeley
+- Jim Thatcher, Assistant Professor, University of Washington Tacoma
+- And the organizing committee of the Digital Geographies Specialty Group
