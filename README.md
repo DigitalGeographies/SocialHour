@@ -1,4 +1,4 @@
-##Digital Geographies Lightning Talks and Social Hour hosted by the proposed Digital Geographies Speciality Group of the AAG and Microsoft Research New England
+## Digital Geographies Lightning Talks and Social Hour hosted by the proposed Digital Geographies Speciality Group of the AAG and Microsoft Research New England
 
 The proposed Digital Geographies specialty group of the AAG would like to invite you to participate in a social hour hosted by Microsoft Research New England (MSRNE) during the upcoming annual meeting of the American Association of Geographers in Boston.
 
@@ -10,15 +10,15 @@ If you are interested in **_attending or presenting_**, please complete [this fo
 
 If you have any questions, please contact Jim Thatcher (jethatch@uw.edu).
 
-###Where & When:
+### Where & When:
 Thursday, April 6th, 6pm -8pm at Microsoft Research’s Clara Barton Room on the first floor of 1 Memorial Drive, Cambridge MA (a short walk from the Kendall Square T Stop). Visitors will be asked to sign in at the building lobby, and then they’ll just take the elevator up to the first floor. 
 
 See map at the bottom of the page for where this is in relation to the AAG Hotels.
 
-###Who:
+### Who:
 All Interested parties.
 
-###What:
+### What:
 Lightning talks, a social hour with coffee and donuts, and then a more social hour at a nearby bar.
 
 
