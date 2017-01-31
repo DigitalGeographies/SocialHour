@@ -14,7 +14,7 @@ If you have any questions, please contact Jim Thatcher (jethatch@uw.edu).
 Thursday, April 6th, 6pm -8pm at Microsoft Research’s Clara Barton Room on the first floor of 1 Memorial Drive, Cambridge MA (a short walk from the Kendall Square T Stop). Visitors will be asked to sign in at the building lobby, and then they’ll just take the elevator up to the first floor. 
 
 {% raw %}
-<iframe src="socialhourmap.html" width="800" height="400"></iframe>
+<iframe src="socialhourmap.html" width="700" height="400"></iframe>
 {% endraw %}
 
 ### Who:
