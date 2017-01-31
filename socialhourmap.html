@@ -1,0 +1,276 @@
+
+        <!DOCTYPE html>
+        <head>
+            
+        
+            <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://rawgithub.com/lvoogdt/Leaflet.awesome-markers/2.0/develop/dist/leaflet.awesome-markers.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster-src.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster.js"></script>
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://rawgit.com/lvoogdt/Leaflet.awesome-markers/2.0/develop/dist/leaflet.awesome-markers.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.Default.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://raw.githubusercontent.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+        
+        
+        
+            
+            <style>
+
+            html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                }
+
+            #map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+            
+        
+            
+            <style> #map_73568386321d467e947c2e54f6b6acb3 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+        
+        
+        </head>
+        <body>
+            
+        
+            
+            <div class="folium-map" id="map_73568386321d467e947c2e54f6b6acb3" ></div>
+        
+        
+        
+        </body>
+        <script>
+            
+        
+            
+
+            var southWest = L.latLng(-90, -180);
+            var northEast = L.latLng(90, 180);
+            var bounds = L.latLngBounds(southWest, northEast);
+
+            var map_73568386321d467e947c2e54f6b6acb3 = L.map('map_73568386321d467e947c2e54f6b6acb3', {
+                                           center:[42.355,-71.07899],
+                                           zoom: 14,
+                                           maxBounds: bounds,
+                                           layers: [],
+                                           crs: L.CRS.EPSG3857
+                                         });
+            
+        
+        
+            
+            var tile_layer_89f76a87a2b643f98d086cc3e06f9e9f = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+                    maxZoom: 18,
+                    minZoom: 1,
+                    attribution: 'Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
+                    detectRetina: false
+                    }
+                ).addTo(map_73568386321d467e947c2e54f6b6acb3);
+
+        
+        
+            
+
+            var marker_31a84faac7fa4844b6f29f93a3ec5432 = L.marker(
+                [42.3615004,-71.081361],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_73568386321d467e947c2e54f6b6acb3);
+            
+        
+            
+
+                var icon_9475ad9bed444f678edefea84fc2ff9d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_31a84faac7fa4844b6f29f93a3ec5432.setIcon(icon_9475ad9bed444f678edefea84fc2ff9d);
+            
+        
+            
+            var popup_452441287be841cbb62bc5ff51747ce5 = L.popup({maxWidth: '300'});
+
+            
+                var html_7a7d72afd63841059c5e8b2c9569ccb1 = $('         <div id="html_7a7d72afd63841059c5e8b2c9569ccb1"                 style="width: 100.0%; height: 100.0%;">                 Microsoft Research</div>                 ')[0];
+                popup_452441287be841cbb62bc5ff51747ce5.setContent(html_7a7d72afd63841059c5e8b2c9569ccb1);
+            
+
+            marker_31a84faac7fa4844b6f29f93a3ec5432.bindPopup(popup_452441287be841cbb62bc5ff51747ce5);
+
+            
+        
+        
+            
+
+            var marker_bcd8fb294e464079a2c4136599456b45 = L.marker(
+                [42.34712945,-71.0840046913],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_73568386321d467e947c2e54f6b6acb3);
+            
+        
+            
+            var popup_39c2f028ad1c4f3481a689b694fa61a7 = L.popup({maxWidth: '300'});
+
+            
+                var html_8287183174104c9aa716504ef5d96db7 = $('         <div id="html_8287183174104c9aa716504ef5d96db7"                 style="width: 100.0%; height: 100.0%;">                 Hynes Convention Center</div>                 ')[0];
+                popup_39c2f028ad1c4f3481a689b694fa61a7.setContent(html_8287183174104c9aa716504ef5d96db7);
+            
+
+            marker_bcd8fb294e464079a2c4136599456b45.bindPopup(popup_39c2f028ad1c4f3481a689b694fa61a7);
+
+            
+        
+        
+            
+
+            var marker_0e5932c50acf430193a8b0ccba02d7d3 = L.marker(
+                [42.34693175,-71.0780924823],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_73568386321d467e947c2e54f6b6acb3);
+            
+        
+            
+            var popup_2b07dfa31699465885ecb6bda1471d0d = L.popup({maxWidth: '300'});
+
+            
+                var html_c541ba9e7a36417e882ad41292e6053e = $('         <div id="html_c541ba9e7a36417e882ad41292e6053e"                 style="width: 100.0%; height: 100.0%;">                 Marriott Copley Place</div>                 ')[0];
+                popup_2b07dfa31699465885ecb6bda1471d0d.setContent(html_c541ba9e7a36417e882ad41292e6053e);
+            
+
+            marker_0e5932c50acf430193a8b0ccba02d7d3.bindPopup(popup_2b07dfa31699465885ecb6bda1471d0d);
+
+            
+        
+        
+            
+
+            var marker_91929a5ad3544a03a6fe1ceb6d21a675 = L.marker(
+                [42.3464256,-71.0838841745],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_73568386321d467e947c2e54f6b6acb3);
+            
+        
+            
+            var popup_f14de07875dd4d08a6eca4de1d361504 = L.popup({maxWidth: '300'});
+
+            
+                var html_bc07da49180d4fc4b8d1c2c2d908366b = $('         <div id="html_bc07da49180d4fc4b8d1c2c2d908366b"                 style="width: 100.0%; height: 100.0%;">                 Sheraton Boston</div>                 ')[0];
+                popup_f14de07875dd4d08a6eca4de1d361504.setContent(html_bc07da49180d4fc4b8d1c2c2d908366b);
+            
+
+            marker_91929a5ad3544a03a6fe1ceb6d21a675.bindPopup(popup_f14de07875dd4d08a6eca4de1d361504);
+
+            
+        
+        
+        
+        </script>
+        
